@@ -1,0 +1,160 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: rgb(54, 70, 54);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a {
+    padding:0 20px;
+    text-decoration: none;
+    color: rgb(206, 156, 63);
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+li a::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background: gray;
+    transition: all .5s;
+}
+
+li a:hover::after{
+    width: 100%;
+}
+
+.logo{
+    border: 1px solid orange;
+}
+main{
+    background-color: rgb(54, 70, 54);
+    display:flex;
+    height: calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+}
+
+.jollof-image{
+    max-width: 670px;
+    height:auto; 
+    border: 4px solid orange;
+    
+}
+
+.content-left{
+    width: 30% ;
+}
+
+main h2{
+    color: orange;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+main p{
+    color: rgb(206, 156, 63);
+    font-size: 18px; 
+    font-weight: 400;
+    line-height: 31.5px;
+    margin: 30px 0;
+}
+
+.cta{
+    padding: 15px 30px;
+    background: orange;
+    color:rgb(54, 70, 54);
+    outline: none;
+    border: none;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* a{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  a:hover{
+    color: aqua;
+    text-decoration: underline;
+  }
+  
+ 
+  }
+  
+  .title{
+  
+  }
+
+  p,
+  h2 {
+    margin: 0px;
+    padding: 0px;
+    }
+  
+ 
+  p{
+    color: #e5e7eb;
+    font-size: 18px; 
+  }
+*/
+  
+ 
