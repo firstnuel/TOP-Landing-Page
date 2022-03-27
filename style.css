@@ -1,5 +1,4 @@
 *{
-    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,6 +6,7 @@
   
 body{
     font-family: 'Roboto', sans-serif;
+
 }
 
 header{
@@ -59,6 +59,7 @@ main{
     max-width: 670px;
     height:auto; 
     border: 4px solid orange;
+
     
 }
 
@@ -90,11 +91,94 @@ main p{
     text-transform: uppercase;
 }
 
+.info h2{
+    color:  rgb(54, 70, 54);
+    font-size: 32px;
+    margin-bottom: 48px;
+    margin-top: 48px;
+    text-align: center;
+}
+
+.white .text{
+    color:rgb(54, 70, 54); 
+    font-size: 18px; 
+    font-weight: 400;
+    max-width: 200px;
+}
+.white{
+    margin-bottom: 48px;
+}
 
 
+section img{
+    border: 4px solid orange;
+    height: 200px;
+    width: 200px;
+}
 
+section .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+ }
 
+.bg-orange{
+      background-color: rgb(206, 156, 63);
+}
+.bg-orange .container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+ }
 
+.bg-orange .values{
+    font-size: 32px;
+    padding: 32px;
+    padding-bottom: 0;
+    text-align: center;
+    color: rgb(54, 70, 54);
+}
+
+.bg-orange p{
+    color: rgb(54, 70, 54);
+    font-size: 18px; 
+    font-weight: 400;
+    margin-top: 0;
+    line-height: 31.5px;
+    margin: 30px 0; 
+    max-width: 1000px;
+}
+.ctaa{
+   background-color:  rgb(54, 70, 54);
+    border: 2px solid orange;
+    padding: 30px 100px;
+}
+
+.bg-green{
+    background-color: aliceblue;
+    padding: 30px 120px;
+}
+ .ctaa h3{
+    color: orange;
+    font-size: 28px;
+ }
+
+ .ctaa p{
+    color: rgb(206, 156, 63);
+    font-size: 18px; 
+    font-weight: 400;
+ }
+  
+footer{
+    background-color: rgb(54, 70, 54);
+    padding: 10px 60px;
+}
+.copyright{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin: 8px;
+}
 
 
 
